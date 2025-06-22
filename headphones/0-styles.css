@@ -133,11 +133,12 @@ body {
     background-image: url('./images/headphones_hero_2.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     position: relative;
     padding: 80px 0;
     text-align: center;
     color: white;
+    width: 100%;
+
 }
 
 .our-results::before {
@@ -151,9 +152,12 @@ body {
     z-index: 1;
 }
 
-.our-results > * {
+.our-results-content {
     position: relative;
     z-index: 2;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .our-results h2 {
