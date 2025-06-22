@@ -81,6 +81,8 @@ body {
 .what-we-do {
     text-align: center;
     padding: 60px 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .what-we-do h1 {
