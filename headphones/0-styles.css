@@ -293,7 +293,20 @@ body {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
 }
+
+.footer-navigation a:hover,
+.footer-navigation a:active {
+    color: #FF6565;
+}
+
+.footer-navigation svg {
+    width: 25px;
+    height: 25px;
+}
+
 .header-hero {
     position: relative;
     z-index: 2;
@@ -333,10 +346,6 @@ body {
 .cta-button:hover,
 .cta-button:active {
     opacity: 0.9;
-}
-.footer-navigation a:hover,
-.footer-navigation a:active {
-    color: #FF6565;
 }
 
 .footer-btm {
