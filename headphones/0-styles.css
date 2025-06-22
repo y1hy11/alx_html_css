@@ -78,11 +78,6 @@ body {
     transition: 0.3s;
 }
 
-.main-content {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .what-we-do {
     text-align: center;
     padding: 60px 0;
